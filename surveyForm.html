@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/Styles.css">
+</head>
+<body>
+  <style>
+  </style>
+  <form id="survey-form" style="background-color: #cccccc">
+
+    <div class="form-content">
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+          <div class="input-content">
+            <label>Full Name</label>
+            <input id="full-name" class="big">
+          </div>
+
+          <div class="input-content">
+            <label>Email Address</label>
+            <input id="email" class="big">
+          </div>
+
+          <div class="input-content">
+            <label>Age (optional)</label>
+            <input id="age" class="big">
+          </div>
+
+          <div class="input-content">
+            <label>Which of the following cities do you live in?</label>
+            <select id="cities" class="big">
+              <option>Lehi</option>
+              <option>American Fork</option>
+              <option>Eagle Mountain</option>
+              <option>Sarotoga Springs</option>
+              <option>Lindon</option>
+              <option>Pleasant Grove</option>
+              <option>Orem</option>
+              <option>Provo</option>
+            </select>
+          </div>
+
+          <div class="input-content">
+            <label>Select your favorite feature of your city!</label>
+            <input type="radio" name="improvement" value="Definitely" checked> Definitely
+            <input type="radio" name="improvement" value="Maybe"> Maybe
+            <input type="radio" name="improvement" value="NotSure"> Not Sure
+          </div>
+
+          <div class="input-content" >
+            <label>What is your favorite feature of your city?</label>
+            <select id="fav" class="big">
+              <option>community</option>
+              <option>churches</option>
+              <option>shopping centers</option>
+              <option>schools</option>
+              <option>parks</option>
+              <option>movie theaters</option>
+            </select>
+          </div>
+
+          <div class="input-content">
+            <label>What would you like to see improved?</label>
+            <input type="checkbox" name="improve" value="homes">cheaper single family homes
+            <input type="checkbox" name="improve" value="park">park with pavilion for neighborhoods
+            <input type="checkbox" name="improve" value="traffic" checked>better traffic flow
+            <input type="checkbox" name="improve" value="mall">shopping mall
+            <input type="checkbox" name="improve" value="apartment">high density apartments as shown in the example
+          </div>
+
+          <div class="input-content">
+            <label>Any comments or suggestions?</label>
+            <textarea id="suggestions"
+                  rows="4" cols="75">
+            </textarea>
+          </div>
+          <div class="input-content">
+             <button type="submit" onclick="#">SUBMIT</button>
+          </div>
+    </div>
+  </form>
+</body>
+</html>
